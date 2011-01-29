@@ -22,9 +22,14 @@ Group:		Applications
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/tasque/0.1/%{name}-%{version}.tar.gz
 # Source0-md5:	c8c911e1d98843a63d6fb96b180c8af5
 URL:		http://live.gnome.org/Tasque
-BuildRequires:	dotnet-evolution-sharp-devel
 BuildRequires:	dotnet-gnome-sharp-devel
 BuildRequires:	dotnet-gtk-sharp2-devel
+BuildRequires:	dotnet-ndesk-dbus-glib-sharp-devel
+BuildRequires:	dotnet-ndesk-dbus-sharp-devel
+BuildRequires:	gettext-devel
+BuildRequires:	intltool
+BuildRequires:	mono-csharp
+BuildRequires:	pkgconfig
 Requires:	dotnet-gtk-sharp2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
