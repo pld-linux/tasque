@@ -3,15 +3,16 @@
 # - Enable more backends
 # - Fix requires esp for various backend support
 # - Unpackages files? Need for mono macros?
+#
+# Conditional build:
+%bcond_with	eds
+%bcond_with	hiveminder
+%bcond_with	icecore
+%bcond_with	sqlite
+%bcond_without	dummy
+%bcond_without	rtm
 
 %include	/usr/lib/rpm/macros.mono
-
-%bcond_with eds
-%bcond_with hiveminder
-%bcond_with icecore
-%bcond_with sqlite
-%bcond_without dummy
-%bcond_without rtm
 
 Summary:	Tasque is a simple task management app
 Name:		tasque
