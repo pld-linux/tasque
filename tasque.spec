@@ -75,6 +75,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog COPYING INSTALL MAINTAINERS NEWS README TODO
 %attr(755,root,root) %{_bindir}/%{name}
 %attr(755,root,root) %{_libdir}/%{name}/Tasque.exe
+%dir %{_datadir}/%{name}
 %dir %{_libdir}/%{name}
 %{_libdir}/%{name}/*.dll
 %{_datadir}/dbus-1/services/org.gnome.Tasque.service
