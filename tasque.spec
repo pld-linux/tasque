@@ -12,7 +12,6 @@
 %bcond_without	dummy
 %bcond_without	rtm
 
-%include	/usr/lib/rpm/macros.mono
 
 Summary:	Tasque is a simple task management app
 Name:		tasque
